@@ -1,0 +1,11 @@
+name: KissCommand
+version: '1.3-SNAPSHOT'
+api-version: '1.21'
+authors: [ ie155 , 18ay ]
+description: a paper plugin by ie155
+website: github.com/IE155
+main: org.example1.KissCommand.Main
+commands:
+  kiss:
+    description: 向另一名玩家发送一个 kiss
+    usage: /kiss <玩家ID>

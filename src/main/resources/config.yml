@@ -1,0 +1,11 @@
+kiss:
+  # 打开这个功能，true=打开，false=关闭!!!
+  enabled: true
+
+  # 实现自定义渐变色！粉色到紫色的渐变色.
+  color:
+    start: "#ff9acd"
+    end: "#c77dff"
+
+  # 冷却时间（秒）,默认1秒，不支持小数！
+  cooldown-seconds: 1
