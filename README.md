@@ -33,9 +33,12 @@ KissCommand是一个Paper 1.21.x的插件，允许玩家 `/kiss <玩家名>` 指
 |------|------|------|
 | `/kiss` | 向指定玩家发送一个 kiss 提示 | `/kiss <玩家ID>` |
 | `/kiss2load`|在服务器输入，无需重启，直接重新加载config.yml|`/kiss2load`|
+
+---
+
 提一句：如果出现/kisscommand:kiss是正常的，原理是什么我也不知道，解决方法是不管它（最佳方法）。
 
 **示例**：
 
 ```text
-/kiss Silinthoakes
+/kiss 18ay
