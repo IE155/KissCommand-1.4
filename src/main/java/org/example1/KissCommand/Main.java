@@ -11,9 +11,11 @@ public class Main extends JavaPlugin {
         saveDefaultConfig(); // 如果没有config.yml，自动创建
 
         // 注册命令
-        getCommand("kiss").setExecutor(new KissCommand());
+        getCommand("kiss").setExecutor(new KissCommand(this));
+        getCommand("kiss2load").setExecutor(new KissCommand(this));
 
         // 插件加载完成的日志
-        getLogger().info("Kiss插件已加载-1.3-SNAPSHOT");
+        getLogger().info("Kiss插件已加载-1.4-SNAPSHOT,不会自动更新，最新版本获取：github.com/IE155");
+
     }
 }
