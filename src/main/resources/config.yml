@@ -4,23 +4,23 @@ kiss:
 
   #实现自定义渐变色！粉色到紫色的渐变色.
   color:
-    start: "#ff9acd"
-    end: "#c77dff"
+    start: "#ff00ff"
+    end: "#ff00ff"
 
   #冷却时间（秒）,默认3秒，不支持小数！
   cooldown-seconds: 3
 
 
   #1.4版本新功能！在玩家身体中部生成一圈爱心粒子半径为1（半径可改！）
-  Love-Aura-Render: true
+  Love-Aura-Render: false
   #粒子数量（决定密集程度，按照半径来看吧，半径太小粒子太多或太少会很诡异）
   #要求是 Love-Aura-Dense小于4不好看, Love-Aura-Dense超过50,TPS原地升天。
   #不要输入负数！
-  Love-Aura-Dense: 18
+  Love-Aura-Dense: 20
   #光环半径（单位：格），不支持小数！
   #Love-Aura-Radius不要大于10，你见过这么大的关环吗？
   #Love-Aura-Radius不要为0或负数！
-  Love-Aura-Radius: 1
+  Love-Aura-Radius: 2
 
 
 
