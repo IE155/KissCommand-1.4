@@ -39,7 +39,7 @@ KissCommand是一个Paper 1.21+的插件，允许玩家 `/kiss <玩家名>` 指�
 
 ---
 
-提一句：如果出现/kisscommand:kiss是正常的，原理是什么我也不知道，解决方法是不管它（最佳方法）。
+提一句：如果出现/kisscommand:kiss或者/kisscommand:kiss2load是正常的，原理是什么我也不知道，解决方法是不管它（最佳方法）。
 
 **示例**：
 
