@@ -53,7 +53,7 @@ public class KissCommand implements CommandExecutor {
         /*/kiss*/
 
         if (!(sender instanceof Player player)) {
-            sender.sendMessage("该指令只能由玩家执行");
+            sender.sendMessage("ERROR");
             return true;
         }
 
