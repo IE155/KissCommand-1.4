@@ -1,0 +1,14 @@
+name: KissCommand
+version: '1.4.1-SNAPSHOT'
+api-version: '1.21'
+authors: [ ie155 , 18ay ]
+description: a paper plugin /kiss but numerous functions。一个功能超多的paper的kiss插件。
+website: github.com/IE155
+main: org.example1.KissCommand.Main
+commands:
+  kiss:
+    description: 向另一名玩家发送一个 kiss
+    usage: /kiss <玩家ID>
+  kiss2load:
+    description: 热加载config.yml里的配置（不用重启）
+    usage: /kiss2load
