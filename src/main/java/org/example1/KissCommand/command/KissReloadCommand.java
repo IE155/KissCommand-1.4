@@ -28,7 +28,7 @@ public class KissReloadCommand implements CommandExecutor {
 
         plugin.reloadConfig();
 
-        String msg = "[KissCommand] config.yml 已重载";
+        String msg = "[KissCommand] config.yml 重新加载完成";
 
         // 控制台
         Bukkit.getConsoleSender().sendMessage(msg);

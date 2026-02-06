@@ -15,9 +15,8 @@ public class Main extends JavaPlugin {
         getCommand("kiss2load").setExecutor(new KissCommand(this));
 
         // 插件加载完成的日志
-        getLogger().info("Kiss插件已加载-1.21.8-1.4.1-SNAPSHOT");
+        getLogger().info("Kiss插件已加载-1.21.11-1.4.1-SNAPSHOT");
 
     }
 }
 
-//test
