@@ -50,10 +50,10 @@ public class KissCommand implements CommandExecutor {
             return true;
         }
 
-        /*/kiss*/
+        //kiss
 
         if (!(sender instanceof Player player)) {
-            sender.sendMessage("ERROR");
+            sender.sendMessage("ERROE");
             return true;
         }
 
@@ -79,7 +79,7 @@ public class KissCommand implements CommandExecutor {
             return true;
         }
 
-        /*冷却*/
+        //冷却
         int cooldownSeconds = kiss.getInt("cooldown-seconds", 3);
         if (cooldownSeconds > 0) {
             UUID id = player.getUniqueId();
@@ -96,7 +96,7 @@ public class KissCommand implements CommandExecutor {
             cooldowns.put(id, now);
         }
 
-        /*渐变色*/
+        //渐变色
         String start = kiss.getString("color.start", "#ff9acd");
         String end = kiss.getString("color.end", "#c77dff");
 
@@ -134,7 +134,7 @@ public class KissCommand implements CommandExecutor {
     }
 
     /**
-     * 爱心光环（由 config.yml 控制）
+     * 光环（由 config.yml 控制）
      */
     private void spawnLoveAura(Player target, ConfigurationSection kiss) {
 
