@@ -45,3 +45,4 @@ KissCommand是一个Paper 1.21+的插件，允许玩家 `/kiss <玩家名>` 指�
 
 ```text
 /kiss 18ay
+/kiss2load
