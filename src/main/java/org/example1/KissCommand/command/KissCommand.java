@@ -101,17 +101,11 @@ public class KissCommand implements CommandExecutor {
         String end = kiss.getString("color.end", "#c77dff");
 
         Component targetMsg = miniMessage.deserialize(
-                "<gradient:" + start + ":" + end + ">" +
-                        "[kiss]: 你被玩家 " + player.getName() + " 亲吻了！" +
-                        "</gradient>"
-        );
+                player.getName() +"<gradient:" + start + ":" + end + ">" + " 亲了你一口！❤" + "</gradient>");
         target.sendMessage(targetMsg);
 
         Component senderMsg = miniMessage.deserialize(
-                "<gradient:" + start + ":" + end + ">" +
-                        "[kiss]: 你亲吻了玩家 " + target.getName() + "！" +
-                        "</gradient>"
-        );
+                "<gradient:" + start + ":" + end + ">" + "你亲吻了 " + "</gradient>" + target.getName() + "<gradient:" + start + ":" + end + ">" +" ❤" + "</gradient>");
         player.sendMessage(senderMsg);
 
         /*头顶爱心*/
